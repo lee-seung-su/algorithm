@@ -1,0 +1,15 @@
+git clone
+git add -A
+git commit -m "메모"
+git remote add origin 주소.git
+git push origin 현재branch
+
+git remote 하면 remote이름 다뜨고
+git remote remove remote이름하면 삭제가능
+
+git branch하면 branch이름 다뜨고
+git branch -d branch하면 branch삭제
+
+하지만 git clone은 local에 아무것도 없는 상태에서 원격저장소의 데이터를 가져오는 것을 의미합니다.
+
+그리고 git pull은 local에 이미 있고, 원격저장소의 수정상태를 반영하기 위해 하는 것 입니다.
